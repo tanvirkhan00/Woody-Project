@@ -564,8 +564,9 @@ video {
   margin-bottom: 10px;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mr-2 {
@@ -598,10 +599,6 @@ video {
 
 .mt-\[10px\] {
   margin-top: 10px;
-}
-
-.mt-\[20px\] {
-  margin-top: 20px;
 }
 
 .flex {
@@ -756,11 +753,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -855,14 +847,14 @@ video {
   padding-bottom: 30px;
 }
 
-.py-\[5px\] {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .text-center {
@@ -1058,16 +1050,12 @@ video {
     display: none;
   }
 
-  .md\:h-\[400px\] {
-    height: 400px;
+  .md\:h-\[500px\] {
+    height: 500px;
   }
 
   .md\:h-full {
     height: 100%;
-  }
-
-  .md\:h-\[500px\] {
-    height: 500px;
   }
 
   .md\:w-\[900px\] {
@@ -1086,10 +1074,6 @@ video {
     flex-wrap: wrap;
   }
 
-  .md\:justify-center {
-    justify-content: center;
-  }
-
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -1101,16 +1085,6 @@ video {
   .md\:px-\[50px\] {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .md\:py-\[50px\] {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .md\:py-\[20px\] {
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   .md\:py-\[10px\] {
@@ -1128,14 +1102,6 @@ video {
     display: flex;
   }
 
-  .xl\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .xl\:h-\[700px\] {
-    height: 700px;
-  }
-
   .xl\:h-\[500px\] {
     height: 500px;
   }
@@ -1148,56 +1114,28 @@ video {
     width: 1300px;
   }
 
-  .xl\:w-\[33\%\] {
-    width: 33%;
-  }
-
-  .xl\:w-\[32\%\] {
-    width: 32%;
-  }
-
-  .xl\:w-\[30\%\] {
-    width: 30%;
-  }
-
-  .xl\:w-\[130px\] {
-    width: 130px;
-  }
-
-  .xl\:basis-\[35\%\] {
-    flex-basis: 35%;
+  .xl\:basis-\[20\%\] {
+    flex-basis: 20%;
   }
 
   .xl\:basis-\[24\%\] {
     flex-basis: 24%;
   }
 
-  .xl\:basis-\[20\%\] {
-    flex-basis: 20%;
-  }
-
-  .xl\:basis-\[50\%\] {
-    flex-basis: 50%;
+  .xl\:basis-\[32\%\] {
+    flex-basis: 32%;
   }
 
   .xl\:basis-\[45\%\] {
     flex-basis: 45%;
   }
 
-  .xl\:basis-\[32\%\] {
-    flex-basis: 32%;
-  }
-
-  .xl\:basis-\[33\%\] {
-    flex-basis: 33%;
+  .xl\:basis-\[50\%\] {
+    flex-basis: 50%;
   }
 
   .xl\:flex-col {
     flex-direction: column;
-  }
-
-  .xl\:items-center {
-    align-items: center;
   }
 
   .xl\:justify-center {
@@ -1208,23 +1146,14 @@ video {
     justify-content: space-between;
   }
 
-  .xl\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
-  .xl\:py-\[50px\] {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .xl\:px-\[80px\] {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-
   .xl\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .xl\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .xl\:px-\[50px\] {
@@ -1237,13 +1166,13 @@ video {
     padding-bottom: 0px;
   }
 
-  .xl\:px-\[10px\] {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .xl\:py-\[10px\] {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .xl\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
