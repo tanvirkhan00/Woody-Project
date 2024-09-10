@@ -14,76 +14,80 @@
   <!--CDN CSS Link AOS  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <!------------ Favicon -------------->
+  <link rel="shortcut icon" href="/img/service-4.jpg" type="image/x-icon">
+
+  <!-- Title Website -->
+   <title>Responsive || Woody Website</title>
+
 
 </head>
 <body>
     <!-- Top Header Section -->
 
-    <section class="top_header w-[450px] md:w-[900px] xl:w-[1300px] px-[50px] hidden md:block bg-red-100 mx-auto">
-        <div class="top-wraper flex justify-between items-center h-[50px]">
-            <div class="left flex">
-                <div class="location flex items-center mr-5">
-                    <i class="fa-solid fa-location-dot mr-2"></i>
-                    <p>123 Street, New York, USA</p>
+    <header class="top_header mt-[10px]" id="header">
+        <div class="container hidden md:block ">
+            <div class="top-wraper flex justify-between items-center h-[50px]">
+                <div class="left flex">
+                    <div class="location flex items-center mr-5">
+                        <i class="fa-solid fa-location-dot mr-2 icon-hover"></i>
+                        <p>123 Street, New York, USA</p>
+                    </div>
+                    <div class="time flex items-center">
+                        <i class="fa-regular fa-clock mr-2 icon-hover"></i>
+                        <p>Mon-Fri: 09.00 AM-09.00 PM</p>
+                    </div>
                 </div>
-                <div class="time flex items-center">
-                    <i class="fa-regular fa-clock mr-2"></i>
-                    <p>Mon-Fri: 09.00 AM-09.00 PM</p>
-                </div>
-            </div>
-            <div class="right flex">
-                <div class="contact flex items-center mr-5"><i class="fa-solid fa-phone mr-2"></i>
-                <p>+880 1959948542</p>
-                </div>
-                <div class="social-link flex items-center">
-                    <a href="#"><i class="fa-brands fa-square-facebook mr-3"></i></a>
-                   <a href="#"> <i class="fa-brands fa-linkedin mr-3"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-twitter mr-3"></i></a>
-                   <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- End Top Header Section -->
-
-<!-- Start Header Section -->
-
-    <section class="header  px-[50px] w-[450px] xl:w-[1300px] md:w-[900px] bg-slate-200 mx-auto">
-        <div class="header-wraper h-[60px] md:flex justify-between items-center">
-            <div class="header-left ">
-                <div class="heading flex justify-between items-center h-[60px]">
-                    <p class="font-bold text-3xl text-cyan-500">WooDY</p>
-                    <div class="icon md:hidden">
-                        <i class="fa-solid fa-bars text-2xl"></i>
+                <div class="right flex">
+                    <div class="contact flex items-center mr-5"><i class="fa-solid fa-phone mr-2 icon-hover"></i>
+                    <p>+880 1959948542</p>
+                    </div>
+                    <div class="social-link flex items-center">
+                        <a href="#"><i class="fa-brands fa-square-facebook mr-3 icon-hover"></i></a>
+                       <a href="#"> <i class="fa-brands fa-linkedin mr-3 icon-hover"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter mr-3 icon-hover"></i></a>
+                       <a href="#"> <i class="fa-brands fa-square-instagram icon-hover"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="header-right hidden md:block">
-                <div class="list">
-                    <ul class="flex mr-5">
-                        <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#">HOME</a></li>
-                        <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#">ABOUT</a></li>
-                        <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#">SERVICE</a></li>
-                        <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#">PROJECT</a></li>
-                        <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#">PAGES</a></li>
-                        <li class=""><a class="font-medium hover:text-yellow-500" href="#">CONTACT</a></li>
-                    </ul>
+        </div>
+        <div class="container">
+            <div class="header-wraper h-[60px] md:flex justify-between items-center">
+                <div class="header-left ">
+                    <div class="heading flex justify-between items-center h-[60px]">
+                        <p class="font-bold text-3xl text-cyan-500 font-fontLobster">WooDY</p>
+                        <div class="icon md:hidden">
+                            <i class="fa-solid fa-bars text-2xl icon-hover"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right hidden md:block">
+                    <div class="list">
+                        <ul class="flex mr-5">
+                            <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#home">HOME</a></li>
+                            <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#about">ABOUT</a></li>
+                            <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#service">SERVICES</a></li>
+                            <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#project">PROJECTS</a></li>
+                            <li class="mr-5"><a class="font-medium hover:text-yellow-500" href="#team-member">TEAM MEMBERS</a></li>
+                            <li class=""><a class="font-medium hover:text-yellow-500" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-link hidden md:block">
+                    <a class=" btn-hover px-8 py-[17px] font-semibold " href="#">Get A Quote</a>
                 </div>
             </div>
-            <div class="header-link hidden md:block">
-                <a class="px-8 bg-orange-300 py-[17px] font-semibold hover:bg-lime-300" href="#">Get A Quote</a>
-            </div>
-        </div>
-    </section> 
+        </div> 
+    </header>
 
-<!-- End Header Section -->
+<!-- End Top Header Section -->
 
 <!-- Start Hiro Section -->
 
-    <section class="hiro_section w-[450px] md:w-[900px] xl:w-[1300px] mx-auto">
+    <section class="hiro_section" id="home">
 
-        <!-- Swiper Add-->
+        <div class="container">
+            <!-- Swiper Add-->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
 
@@ -92,15 +96,15 @@
                     <div class="hero_section bg-cover h-[500px] "style="background-image:linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(/img/carousel-1.jpg);">
                         <div class="hiro-wrap flex flex-col text-center h-full justify-center items-center w-full">
                             <div class="hiro-content flex flex-col px-6">
-                                <h3 class="font-bold text-xl text-red-300">WELCOME TO WOODY</h3>
+                                <h3 class="font-bold text-5xl text-yellowColor font-fontBebas">WELCOME TO WOODY</h3>
                                 <h1 class="font-extrabold text-2xl text-black py-3">Best Carpenter & Craftsman Services</h1>
                                 <p class="text-slate-100  mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio veniam perferendis itaque autem ut!</p>
                             </div>
                             <div class="hiro-button flex mt-10 gap-4">
                                 <div class="btn-left">
-                                    <a class="bg-cyan-400 px-6 py-3 text-black-500 font-semibold hover:bg-yellow-500" href="#">Read More</a>
+                                    <a class="btn2-hover px-6 py-3 text-black-500 font-semibold" href="#">Read More</a>
                                 </div>
-                                <div class="btn-right "><a class="bg-slate-100 px-6 py-3 text-black-600 font-semibold hover:bg-yellow-500" href="#">Free Quote</a></div>
+                                <div class="btn-right "><a class="btn2-hover px-6 py-3 text-black-500 font-semibold border-redColor" href="#">Free Quote</a></div>
                             </div>
                         </div>
                     </div>
@@ -111,15 +115,15 @@
                     <div class="hero_section bg-cover h-[500px] "style="background-image:linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(/img/carousel-1.jpg);">
                         <div class="hiro-wrap flex flex-col text-center h-full justify-center items-center w-full">
                             <div class="hiro-content flex flex-col px-6">
-                                <h3 class="font-bold text-xl text-red-300">WELCOME TO WOODY</h3>
+                                <h3 class="font-bold text-5xl text-yellowColor font-fontBebas">WELCOME TO WOODY</h3>
                                 <h1 class="font-extrabold text-2xl text-black py-3">Best Carpenter & Craftsman Services</h1>
                                 <p class="text-slate-100  mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio veniam perferendis itaque autem ut!</p>
                             </div>
                             <div class="hiro-button flex mt-10 gap-4">
                                 <div class="btn-left">
-                                    <a class="bg-cyan-400 px-6 py-3 text-black-500 font-semibold hover:bg-yellow-500" href="#">Read More</a>
+                                    <a class="btn2-hover px-6 py-3 text-black-500 font-semibold" href="#">Read More</a>
                                 </div>
-                                <div class="btn-right "><a class="bg-slate-100 px-6 py-3 text-black-600 font-semibold hover:bg-yellow-500" href="#">Free Quote</a></div>
+                                <div class="btn-right "><a class="btn2-hover px-6 py-3 text-black-500 font-semibold border-redColor" href="#">Free Quote</a></div>
                             </div>
                         </div>
                     </div>
@@ -130,15 +134,15 @@
                     <div class="hero_section bg-cover h-[500px] "style="background-image:linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(/img/carousel-1.jpg);">
                         <div class="hiro-wrap flex flex-col text-center h-full justify-center items-center w-full">
                             <div class="hiro-content flex flex-col px-6">
-                                <h3 class="font-bold text-xl text-red-300">WELCOME TO WOODY</h3>
+                                <h3 class="font-bold text-5xl text-yellowColor font-fontBebas">WELCOME TO WOODY</h3>
                                 <h1 class="font-extrabold text-2xl text-black py-3">Best Carpenter & Craftsman Services</h1>
                                 <p class="text-slate-100  mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio veniam perferendis itaque autem ut!</p>
                             </div>
                             <div class="hiro-button flex mt-10 gap-4">
                                 <div class="btn-left">
-                                    <a class="bg-cyan-400 px-6 py-3 text-black-500 font-semibold hover:bg-yellow-500" href="#">Read More</a>
+                                    <a class="btn2-hover px-6 py-3 text-black-500 font-semibold" href="#">Read More</a>
                                 </div>
-                                <div class="btn-right "><a class="bg-slate-100 px-6 py-3 text-black-600 font-semibold hover:bg-yellow-500" href="#">Free Quote</a></div>
+                                <div class="btn-right "><a class="btn2-hover px-6 py-3 text-black-500 font-semibold border-redColor" href="#">Free Quote</a></div>
                             </div>
                         </div>
                     </div>
@@ -149,15 +153,15 @@
                     <div class="hero_section bg-cover h-[500px]"style="background-image:linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(/img/carousel-1.jpg);">
                         <div class="hiro-wrap flex flex-col text-center h-full justify-center items-center w-full">
                             <div class="hiro-content flex flex-col px-6">
-                                <h3 class="font-bold text-xl text-red-300">WELCOME TO WOODY</h3>
+                                <h3 class="font-bold text-5xl text-yellowColor font-fontBebas">WELCOME TO WOODY</h3>
                                 <h1 class="font-extrabold text-2xl text-black py-3">Best Carpenter & Craftsman Services</h1>
                                 <p class="text-slate-100  mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio veniam perferendis itaque autem ut!</p>
                             </div>
                             <div class="hiro-button flex mt-10 gap-4">
                                 <div class="btn-left">
-                                    <a class="bg-cyan-400 px-6 py-3 text-black-500 font-semibold hover:bg-yellow-500" href="#">Read More</a>
+                                    <a class="btn2-hover px-6 py-3 text-black-500 font-semibold" href="#">Read More</a>
                                 </div>
-                                <div class="btn-right "><a class="bg-slate-100 px-6 py-3 text-black-600 font-semibold hover:bg-yellow-500" href="#">Free Quote</a></div>
+                                <div class="btn-right "><a class="btn2-hover px-6 py-3 text-black-500 font-semibold border-redColor" href="#">Free Quote</a></div>
                             </div>
                         </div>
                     </div>
@@ -173,51 +177,54 @@
                 <span></span>
             </div>
         </div>
+        </div>
     </section>
 
 <!-- End Hiro Section -->
 
 <!-- Start Feature Section -->
 
-    <section class="feature_section w-[450px] md:w-[900px] xl:w-[1300px] px-[50px] xl:px-[100px] mx-auto">
-        <div class="feature-wrap py-8 xl:py-[50px] md:flex md:flex-wrap md:justify-between">
-            <div class="designers basis-[100%] md:basis-[48%] xl:basis-[20%] py-4" data-aos="fade-right">
-                <div class="logo flex items-center justify-between">
-                    <i class="fa-solid fa-user-check text-amber-700 text-4xl bg-slate-100 px-3 py-3"></i> 
-                <p class="text-6xl font-extrabold text-slate-200">01</p>
+    <section class="feature_section">
+        <div class="container lg:px-[100px]">
+            <div class="feature-wrap py-8 lg:py-[50px] md:flex md:flex-wrap md:justify-between gap-[20px]">
+                <div class="designers basis-[100%] md:basis-[48%] lg:basis-[45%] py-4" data-aos="fade-right">
+                    <div class="logo flex items-center justify-between">
+                        <i class="fa-solid fa-user-check text-amber-700 text-4xl bg-slate-100 px-3 py-3 icon-hover"></i> 
+                        <p class="text-6xl font-extrabold text-slate-400">01</p>
+                    </div>
+                    <div class="name mt-1">
+                        <p class="font-semibold text-2xl">Creative Designers</p>
+                    </div>
                 </div>
-                <div class="name mt-1">
-                    <p class="font-semibold text-2xl">Creative Designers</p>
+                <div class="designers basis-[100%] md:basis-[48%] lg:basis-[45%] py-4" data-aos="fade-right">
+                    <div class="logo flex  items-center justify-between">
+                        <i class="fa-solid fa-check text-amber-700 text-4xl bg-slate-100 px-4 py-3 icon-hover"></i> 
+                    <p class="text-6xl font-extrabold text-slate-400">02</p>
+                    </div>
+                    <div class="name mt-1">
+                        <p class="font-semibold text-2xl">Quality Products
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="designers basis-[100%] md:basis-[48%] xl:basis-[20%] py-4" data-aos="fade-right">
-                <div class="logo flex  items-center justify-between">
-                    <i class="fa-solid fa-check text-amber-700 text-4xl bg-slate-100 px-4 py-3"></i> 
-                <p class="text-6xl font-extrabold text-slate-200 ">02</p>
+                <div class="designers basis-[100%] md:basis-[48%] lg:basis-[45%] py-4" data-aos="fade-right">
+                    <div class="logo flex items-center justify-between">
+                        <i class="fa-solid fa-drafting-compass text-amber-700 text-4xl bg-slate-100 px-4 py-3 icon-hover"></i> 
+                    <p class="text-6xl font-extrabold text-slate-400">03</p>
+                    </div>
+                    <div class="name mt-1">
+                        <p class="font-semibold text-2xl">Free Consultation
+                        </p>
+                    </div>
                 </div>
-                <div class="name mt-1">
-                    <p class="font-semibold text-2xl">Quality Products
-                    </p>
-                </div>
-            </div>
-            <div class="designers basis-[100%] md:basis-[48%] xl:basis-[20%] py-4" data-aos="fade-right">
-                <div class="logo flex items-center justify-between">
-                    <i class="fa-solid fa-drafting-compass text-amber-700 text-4xl bg-slate-100 px-4 py-3"></i> 
-                <p class="text-6xl font-extrabold text-slate-200">03</p>
-                </div>
-                <div class="name mt-1">
-                    <p class="font-semibold text-2xl">Free Consultation
-                    </p>
-                </div>
-            </div>
-            <div class="designers basis-[100%] py-4 md:basis-[48%] xl:basis-[20%]" data-aos="fade-right">
-                <div class="logo flex items-center justify-between">
-                    <i class="fa-solid fa-headphones text-amber-700 text-4xl bg-slate-100 px-4 py-3"></i> 
-                <p class="text-6xl font-extrabold text-slate-200 ">04</p>
-                </div>
-                <div class="name mt-2">
-                    <p class="font-semibold text-2xl">Customer Support
-                    </p>
+                <div class="designers basis-[100%] py-4 md:basis-[48%] lg:basis-[45%]" data-aos="fade-right">
+                    <div class="logo flex items-center justify-between">
+                        <i class="fa-solid fa-headphones text-amber-700 text-4xl bg-slate-100 px-4 py-3 icon-hover"></i> 
+                    <p class="text-6xl font-extrabold text-slate-400">04</p>
+                    </div>
+                    <div class="name mt-2">
+                        <p class="font-semibold text-2xl">Customer Support
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -227,36 +234,38 @@
 
 <!-- Start About Section -->
 
-    <section class="about_section w-[450px] md:w-[900px] xl:w-[1300px] xl:px-[50px] mx-auto">
-        <div class="about-wrap md:flex md:flex-wrap">
-            <div class="about-left basis-[100%] md:basis-[50%]">
-                <div class="img-box xl:h-[500px]">
-                    <img class="w-full rounded-md xl:h-full" src="/img/about.jpg" alt="">
-                </div>
-            </div>
-            <div class="about-right basis-[100%] md:basis-[50%] bg-slate-100 py-[20px] xl:py-0 px-[50px]">
-                <div class="about-content-wrap xl:flex xl:flex-col xl:justify-center xl:h-full">
-                    <h1 class="text-3xl font-bold">About Us _</h1>
-                    <p class="text-red-800 font-lg py-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet
-                    </p>
-                    <div class="review xl:flex xl:justify-between">
-                        <div class="review-left flex  items-center basis-[100%] xl:basis-[45%] justify-between py-4" data-aos="fade-right">
-                            <i class="fa-solid fa-users text-orange-400 bg-white px-3 py-3 text-4xl"></i>
-                            <div class="content">
-                                <p class="text-orange-400 text-3xl font-semibold">1234</p>
-                                <p class="text-xl">Happy Clients</p>
-                            </div>
-                        </div>
-                        <div class="review-right flex  items-center basis-[100%] xl:basis-[45%] justify-between py-4" data-aos="fade-right">
-                            <i class="fa-solid fa-check text-orange-400 bg-white px-4 py-3 text-4xl"></i>
-                            <div class="content">
-                                <p class="text-orange-400 text-3xl font-semibold">1234</p>
-                                <p class="text-xl">Happy Clients</p>
-                            </div>
-                        </div>
+    <section class="about_section " id="about">
+        <div class="container lg:px-[50px]">
+            <div class="about-wrap md:flex md:flex-wrap">
+                <div class="about-left basis-[100%] md:basis-[50%]">
+                    <div class="img-box xl:h-[500px]">
+                        <img class="w-full rounded-md xl:h-full" src="/img/about.jpg" alt="">
                     </div>
-                    <div class="about-btn py-4 xl:mt-5" data-aos="fade-right">
-                        <a class="bg-orange-400 px-5 py-3 font-semibold text-lg hover:bg-red-500" href="#">Explore More</a>
+                </div>
+                <div class="about-right basis-[100%] md:basis-[50%] bg-slate-100 py-[20px] xl:py-0 px-[50px]">
+                    <div class="about-content-wrap xl:flex xl:flex-col xl:justify-center xl:h-full">
+                        <h1 class="text-4xl font-bold font-fontLobster">About Us _</h1>
+                        <p class="text-red-800 font-lg py-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet
+                        </p>
+                        <div class="review xl:flex xl:justify-between">
+                            <div class="review-left flex  items-center basis-[100%] xl:basis-[45%] justify-between py-4" data-aos="fade-right">
+                                <i class="fa-solid fa-users text-orange-400 bg-white px-3 py-3 text-4xl icon-hover"></i>
+                                <div class="content">
+                                    <p class="text-orange-400 text-3xl font-semibold">1234</p>
+                                    <p class="text-xl">Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="review-right flex  items-center basis-[100%] xl:basis-[45%] justify-between py-4" data-aos="fade-right">
+                                <i class="fa-solid fa-check text-orange-400 bg-white px-4 py-3 text-4xl icon-hover"></i>
+                                <div class="content">
+                                    <p class="text-orange-400 text-3xl font-semibold">1234</p>
+                                    <p class="text-xl">Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-btn py-4 xl:mt-5" data-aos="fade-right">
+                            <a class=" px-5 py-3 font-semibold text-lg btn2-hover border-black" href="#">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -267,81 +276,88 @@
 
 <!-- Start Our Service Section -->
 
-    <section class="our_services w-[450px] md:w-[900px] xl:w-[1300px] py-[30px] mx-auto">
-        <div class="servicec-heading text-center py-[10px]"> 
-        <p class="text-2xl font-bold">_ Our Services _</p>
-        </div>
-        <div class="service-description md:py-[10px] xl:px-[50px]">
-            <div class="row flex flex-wrap md:justify-evenly xl:justify-between">
-                <div class="carpentry bg-slate-100 basis-[100%] md:basis-[48%] xl:basis-[32%] my-[10px]" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-1.jpg" alt="">
-                    </div>
-                    <h1 class="text-center text-2xl font-bold text-red-400 py-2">General Carpentry</h1>
-                    <p class="text-slate-400 px-2 text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+    <section class="our_services" id="service">
+        <div class="container ">
+            <div class="servicec-heading text-center py-[10px]"> 
+                <p class="text-5xl font-bold font-fontLobster">_ Our Services _</p>
+                </div>
+                <div class="service-description md:py-[10px] lg:px-[50px]">
+                    <div class="row flex flex-wrap md:justify-evenly lg:justify-between">
+                        <div class="carpentry bg-slate-100 basis-[100%] md:basis-[48%] lg:basis-[45%] my-[10px] btn-hover" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-1.jpg" alt="">
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-red-400 py-2 font-fontProtest">General Carpentry</h1>
+                            <p class="text-slate-400 px-2 text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
+                        <div class="manufacturing basis-[100%] md:basis-[48%] lg:basis-[45%]
+                        btn-hover bg-slate-100 my-[10px]" data-aos="fade-up">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-2.jpg" alt="">
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-red-400 py-2 font-fontProtest">Furniture Manufacturing</h1>
+                            <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
+                        <div class="remodeling basis-[100%] md:basis-[48%] lg:basis-[45%]
+                        btn-hover bg-slate-100 my-[10px]" data-aos="fade-right">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-3.jpg" alt="">
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-red-400 py-2 font-fontProtest">Furniture Remodeling</h1>
+                            <p class="text-center text-slate-400 px-2 ">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
+                        <div class="floor basis-[100%] md:basis-[48%] lg:basis-[45%]
+                        btn-hover bg-slate-100 my-[10px]" data-aos="fade-up-left">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-4.jpg" alt="">
+                            </div>
+                            <h1 class="text-center py-2 text-2xl font-bold text-red-400 font-fontProtest">Wooden Floor </h1>
+                            <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
+                        <div class="furniture basis-[100%] md:basis-[48%] lg:basis-[45%]
+                        btn-hover my-[10px] bg-slate-100 " data-aos="fade-down-right">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-5.jpg" alt="">
+                            </div>
+                            <h1 class="text-center py-2 text-2xl font-bold text-red-400 font-fontProtest">Wooden Furniture</h1>
+                            <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
+                        <div class="custom-work basis-[100%] md:basis-[48%] lg:basis-[45%]
+                        btn-hover my-[10px] bg-slate-100" data-aos="zoom-in">
+                            <div class="img-box">
+                                <img class="w-full rounded-md" src="/img/service-6.jpg" alt="">
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-red-400 py-2 font-fontProtest">Custom Work
+                            </h1>
+                            <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                            </p>
+                            <div class="link text-center py-2">
+                                <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="manufacturing basis-[100%] md:basis-[48%] xl:basis-[32%] bg-slate-100 my-[10px]" data-aos="fade-up">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-2.jpg" alt="">
-                    </div>
-                    <h1 class="text-center text-2xl font-bold text-red-400 py-2">Furniture Manufacturing</h1>
-                    <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    </div>
-                </div>
-                <div class="remodeling basis-[100%] md:basis-[48%] xl:basis-[32%] bg-slate-100 my-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-3.jpg" alt="">
-                    </div>
-                    <h1 class="text-center text-2xl font-bold text-red-400 py-2">Furniture Remodeling</h1>
-                    <p class="text-center text-slate-400 px-2 ">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    </div>
-                </div>
-                <div class="floor basis-[100%] md:basis-[48%] xl:basis-[32%] bg-slate-100 my-[10px]" data-aos="fade-up-left">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-4.jpg" alt="">
-                    </div>
-                    <h1 class="text-center py-2 text-2xl font-bold text-red-400">Wooden Floor </h1>
-                    <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    </div>
-                </div>
-                <div class="furniture basis-[100%] md:basis-[48%] xl:basis-[32%] my-[10px] bg-slate-100 " data-aos="fade-down-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-5.jpg" alt="">
-                    </div>
-                    <h1 class="text-center py-2 text-2xl font-bold text-red-400">Wooden Furniture</h1>
-                    <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    </div>
-                </div>
-                <div class="custom-work basis-[100%] md:basis-[48%] xl:basis-[32%] my-[10px] bg-slate-100" data-aos="zoom-in">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/service-6.jpg" alt="">
-                    </div>
-                    <h1 class="text-center text-2xl font-bold text-red-400 py-2">Custom Work
-                    </h1>
-                    <p class="text-center text-slate-400 px-2">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
-                    </p>
-                    <div class="link text-center py-2">
-                        <a class="text-xl font-semibold  text-black hover:text-rose-600" href="#">Read More <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -349,39 +365,39 @@
 
 <!-- Start Option Section -->
 
-    <section class="option_section w-[450px] md:w-[900px] xl:w-[1300px] py-[30px] md:px-[50px] mx-auto">
-        <div class="option-wraper flex flex-wrap xl:justify-between">
-            <div class="option-left basis-[100%] xl:flex xl:flex-col xl:justify-center xl:h-[500px] xl:basis-[50%]">
-                <div class="option-content my-[10px] xl:px-[10px]">
-                    <h1 class="font-extrabold text-2xl text-center py-2">Why Choose Us _</h1>
-                    <p class="text-slate-600 px-3 text-center">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+    <section class="option_section" id="#">
+        <div class="container flex flex-wrap lg:justify-between">
+            <div class="option-left basis-[100%] lg:flex lg:flex-col lg:justify-center lg:h-[500px] lg:basis-[45%]">
+                <div class="option-content my-[10px] lg:px-[10px]">
+                    <h1 class="font-extrabold font-fontLobster text-4xl text-center py-2 ">Why Choose Us _</h1>
+                    <p class="text-slate-600 px-3 text-center mt-[20px]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                 </div>
                 <div class="option-feature my-[10px]">
-                    <div class="row  px-[80px] md:flex md:flex-wrap md:justify-between">
+                    <div class="row md:flex md:flex-wrap md:justify-between">
                         <div class="service flex justify-between basis-[100%] md:basis-[48%] py-2" data-aos="fade-right">
-                            <i class="fa-solid fa-check px-5 py-4 bg-slate-100 text-orange-500 text-4xl"></i>
-                            <div class="content">
+                            <i class="fa-solid fa-check px-5 py-4 bg-slate-100 text-orange-500 text-4xl icon-hover"></i>
+                            <div class="content text-center">
                                 <p class="text-lg text-yellow-600">Quality</p>
                                 <p class="font-bold text-xl">Services</p>
                             </div> 
                         </div>
                         <div class="designers flex py-2 justify-between basis-[100%] md:basis-[48%]" data-aos="fade-right">
-                            <i class="fa-solid fa-user-check px-3 py-4 bg-slate-100 text-orange-500 text-4xl"></i>
-                            <div class="content">
+                            <i class="fa-solid fa-user-check px-3 py-4 bg-slate-100 text-orange-500 text-4xl icon-hover"></i>
+                            <div class="content text-center">
                                 <p class="text-lg text-yellow-600">Creative</p>
                                 <p class="font-bold text-xl">Designers</p>
                             </div> 
                         </div>
                         <div class="consultation flex justify-between basis-[100%] md:basis-[48%] py-2" data-aos="fade-right">
-                            <i class="fa-solid fa-compass-drafting px-4 py-4 bg-slate-100 text-orange-500 text-4xl"></i>
-                            <div class="content">
+                            <i class="fa-solid fa-compass-drafting px-4 py-4 bg-slate-100 text-orange-500 text-4xl icon-hover"></i>
+                            <div class="content text-center">
                                 <p class="text-lg text-yellow-600">Free</p>
                                 <p class="font-bold text-xl">Consultation</p>
                             </div> 
                         </div>
                         <div class="support flex basis-[100%] md:basis-[48%] justify-between py-2" data-aos="fade-right">
-                            <i class="fa-solid fa-headphones-simple px-4 py-4 bg-slate-100 text-orange-500 text-4xl"></i>
-                            <div class="content">
+                            <i class="fa-solid fa-headphones-simple px-4 py-4 bg-slate-100 text-orange-500 text-4xl icon-hover"></i>
+                            <div class="content text-center">
                                 <p class="text-lg text-yellow-600">Customar</p>
                                 <p class="font-bold text-xl">Support</p>
                             </div> 
@@ -389,7 +405,7 @@
                     </div>  
                 </div>
             </div>
-            <div class="option-right basis-[100%] xl:basis-[50%] py-2 xl:py-0">
+            <div class="option-right basis-[100%] lg:basis-[45%] py-2 lg:py-0">
                 <div class="img-box md:h-[500px]">
                     <img class="w-full rounded-md md:h-full" src="/img/feature.jpg" alt="">
                 </div>
@@ -401,70 +417,72 @@
 
 <!--Start Project Section  -->
 
-    <section class="projects_section py-[30px] w-[450px] md:w-[900px] xl:w-[1300px] mx-auto">
-        <div class="heading text-center py-[10px]">
-            <h1 class="font-bold text-3xl">_ Our Projects _</h1>
-        </div>
-        <div class="projects-wrap md:px-[50px] xl:py-[10px]">
-            <div class="row flex flex-wrap md:justify-between">
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-1.jpg" alt="">
+    <section class="projects_section" id="project">
+        <div class="container">
+            <div class="heading text-center py-[10px]">
+                <h1 class="font-bold text-4xl font-fontLobster">_ Our Projects _</h1>
+            </div>
+            <div class="projects-wrap md:px-[50px] lg:py-[10px]">
+                <div class="row flex flex-wrap md:justify-between">
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-1.jpg" alt="">
+                        </div>
+                        <div class="content px-4 py-2 bg-slate-100">
+                            <p class="text-xl font-semibold text-pink-800 font-fontProtest">General Carpentry</p>
+                            <p class="text-lg font-bold text-slate-400 py-1 ">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
-                    <div class="content px-4 py-2 bg-slate-100">
-                        <p class="text-xl font-semibold text-pink-800">General Carpentry</p>
-                        <p class="text-lg font-bold text-slate-400 py-1 ">Wooden Furniture Manufacturing And Remodeling
-                        </p>
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-2.jpg" alt="">
+                        </div>
+                        <div class="content py-[10px] px-4 bg-slate-100">
+                            <p class="text-xl font-semibold font-fontProtest text-pink-800 ">Custom Carpentry</p>
+                            <p class="text-lg font-bold text-slate-400 py-1">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-2.jpg" alt="">
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-3.jpg" alt="">
+                        </div>
+                        <div class="content py-[10px] bg-slate-100 px-4">
+                            <p class="text-xl font-medium text-pink-800 font-fontProtest">General Carpentry</p>
+                            <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
-                    <div class="content py-[10px] px-4 bg-slate-100">
-                        <p class="text-xl font-semibold text-pink-800 ">Custom Carpentry</p>
-                        <p class="text-lg font-bold text-slate-400 py-1">Wooden Furniture Manufacturing And Remodeling
-                        </p>
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-4.jpg" alt="">
+                        </div>
+                        <div class="content py-[10px] px-4 bg-slate-100">
+                            <p class="text-xl font-medium text-pink-800 font-fontProtest">Custom Carpentry</p>
+                            <p class="text-lg font-bold text-slate-400 ">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-3.jpg" alt="">
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-5.jpg" alt="">
+                        </div>
+                        <div class="content bg-slate-100 py-[10px] px-4">
+                            <p class="text-xl font-medium text-pink-800 font-fontProtest">General Carpentry</p>
+                            <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
-                    <div class="content py-[10px] bg-slate-100 px-4">
-                        <p class="text-xl font-medium text-pink-800">General Carpentry</p>
-                        <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
-                        </p>
-                    </div>
-                </div>
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-4.jpg" alt="">
-                    </div>
-                    <div class="content py-[10px] px-4 bg-slate-100">
-                        <p class="text-xl font-medium text-pink-800">Custom Carpentry</p>
-                        <p class="text-lg font-bold text-slate-400 ">Wooden Furniture Manufacturing And Remodeling
-                        </p>
-                    </div>
-                </div>
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-5.jpg" alt="">
-                    </div>
-                    <div class="content bg-slate-100 py-[10px] px-4">
-                        <p class="text-xl font-medium text-pink-800">General Carpentry</p>
-                        <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
-                        </p>
-                    </div>
-                </div>
-                <div class="single-project basis-[100%] md:basis-[48%] xl:basis-[32%] py-[10px]" data-aos="fade-right">
-                    <div class="img-box">
-                        <img class="w-full rounded-md" src="/img/portfolio-6.jpg" alt="">
-                    </div>
-                    <div class="content bg-slate-100 py-[10px] px-4">
-                        <p class="text-xl font-medium text-pink-800">Custom carpentry</p>
-                        <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
-                        </p>
+                    <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[32%] my-[10px] btn-hover" data-aos="fade-right">
+                        <div class="img-box">
+                            <img class="w-full rounded-md" src="/img/portfolio-6.jpg" alt="">
+                        </div>
+                        <div class="content bg-slate-100 py-[10px] px-4">
+                            <p class="text-xl font-medium text-pink-800 font-fontProtest">Custom carpentry</p>
+                            <p class="text-lg font-bold text-slate-400">Wooden Furniture Manufacturing And Remodeling
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -475,8 +493,8 @@
 
 <!-- Start Quote Section -->
 
-    <section class="qoute_section w-[450px] md:w-[900px] xl:w-[1300px] py-[30px] md:px-[50px] mx-auto">
-       <div class="quote-wrap xl:flex xl:justify-between">
+    <section class="qoute_section md:px-[50px]" id="contact">
+       <div class="container xl:flex xl:justify-between">
             <div class="quote-left basis-[100%] xl:basis-[50%]">
                 <div class="img-box md:h-[500px] xl:h-full">
                     <img class="w-full rounded-md h-full" src="/img/quote.jpg" alt="">
@@ -484,7 +502,7 @@
             </div>
             <div class="quote-right basis-[100%] xl:basis-[50%] bg-slate-100 py-[10px] xl:py-0  px-[50px]">
                 <div class="quote-content xl:flex xl:flex-col xl:justify-center xl:h-full">
-                    <h1 class="text-3xl font-bold py-2">Free Quote _</h1>
+                    <h1 class="text-3xl font-bold py-2 font-fontLobster">Free Quote _</h1>
                     <p class="text-lg text-slate-500 py-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                     <form class="flex flex-wrap justify-between" action="">
                         <input class="h-[55px] w-full px-3 my-2"data-aos="fade-right" type="text" placeholder="Your Name" >
@@ -497,7 +515,7 @@
                             <option value="service-3">Service 3</option>
                         </select>
                         <input class="h-[70px] w-full px-3 my-2" type="text" placeholder="Special Note" data-aos="fade-right"> <br>
-                        <input class="text-center h-[55px] w-full my-2 bg-amber-500 cursor-pointer text-xl font-semibold text-white rounded-md hover:bg-green-400" type="submit" value="Submit" data-aos="fade-right">
+                        <input class="text-center h-[55px] w-full my-2 text-xl font-semibold text-black btn-hover" type="submit" value="Submit" data-aos="fade-right">
                     </form>
                 </div>
             </div>
@@ -508,60 +526,62 @@
 
 <!-- Start Team Member Section -->
 
-    <section class="team-member w-[450px] md:w-[900px] xl:w-[1300px] py-[30px] md:px-[50px] mx-auto">
-        <div class="heading my-[10px]">
-            <h1 class="text-center font-bold text-3xl">_ Team Members _</h1>
-        </div>
-
-        <!-- Swiper Start-->
-
-        <div class="swiper mySwiper2">
-            <div class="swiper-wrapper mt-[10px] basis-[100%]">
-                <div class="swiper-slide">
-                    <div class="img-box h-[300px]">
-                        <img class="w-full h-full"  src="/img/team-1.jpg" />
-                    </div>
-                    <div class="id text-center my-3">
-                        <h3 class="text-2xl font-bold">James Bon</h3>
-                        <p class="font-medium text-slate-500 my-1">Designation
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="img-box h-[300px]">
-                        <img class=" h-full w-full" src="/img/team-2.jpg" />
-                    </div>
-                    
-                    <div class="id text-center my-3">
-                        <h3 class="text-2xl font-bold">Mark Wood</h3>
-                        <p class="font-medium text-slate-500 my-1">Designation
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-slide ">
-                    <div class="img-box h-[300px]">
-                        <img class=" h-full w-full" src="/img/team-3.jpg" />
-                    </div>
-                    
-                    <div class="id w-full text-center my-3">
-                        <h3 class="text-2xl font-bold">Tom Carry</h3>
-                        <p class="font-medium text-slate-500 my-1">Designation
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-slide ">
-                    <div class="img-box h-[300px]">
-                        <img class=" h-full w-full" src="/img/team-4.jpg" />
-                    </div>
-                    
-                    <div class="id w-full text-center my-3">
-                        <h3 class="text-2xl font-bold">Emy Nussa</h3>
-                        <p class="font-medium text-slate-500 my-1">Designation
-                        </p>
-                    </div>
-                </div>
+    <section class="team-member" id="team-member">
+        <div class="container md:px-[50px]">
+            <div class="heading my-[10px]">
+                <h1 class="text-center font-bold text-4xl font-fontLobster">_ Team Members _</h1>
             </div>
-            <div class="swiper-pagination"></div>
+    
+            <!-- Swiper Start-->
+    
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper mt-[10px] basis-[100%]">
+                    <div class="swiper-slide">
+                        <div class="img-box h-[300px]">
+                            <img class="w-full h-full"  src="/img/team-1.jpg" />
+                        </div>
+                        <div class="id text-center my-3">
+                            <h3 class="text-2xl font-bold font-fontProtest">James Bon</h3>
+                            <p class="font-medium text-slate-500 my-1">Designation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box h-[300px]">
+                            <img class=" h-full w-full" src="/img/team-2.jpg" />
+                        </div>
+                        
+                        <div class="id text-center my-3">
+                            <h3 class="text-2xl font-bold font-fontProtest">Mark Wood</h3>
+                            <p class="font-medium text-slate-500 my-1">Designation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="img-box h-[300px]">
+                            <img class=" h-full w-full" src="/img/team-3.jpg" />
+                        </div>
+                        
+                        <div class="id w-full text-center my-3">
+                            <h3 class="text-2xl font-bold font-fontProtest">Tom Carry</h3>
+                            <p class="font-medium text-slate-500 my-1">Designation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide ">
+                        <div class="img-box h-[300px]">
+                            <img class=" h-full w-full" src="/img/team-4.jpg" />
+                        </div>
+                        
+                        <div class="id w-full text-center my-3">
+                            <h3 class="text-2xl font-bold font-fontProtest">Emy Nussa</h3>
+                            <p class="font-medium text-slate-500 my-1">Designation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
 
@@ -569,20 +589,22 @@
 
 <!-- Start Testimonial Section -->
 
-    <section class="testimonial w-[450px] md:w-[900px] xl:w-[1300px] py-[30px] md:px-[50px] mx-auto">
-        <div class="testimonial-wrap flex text-center flex-col items-center">
-            <div class="heading ">
-                <h1 class="text-3xl font-bold">_ Testimonial _</h1>
-            </div>
-            <div class="img-box my-2">
-                <img class=""data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" src="/img/testimonial-3.jpg" alt="">
-            </div>
-            <div class="content my-2 px-[20px]">
-                <p class="text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae unde sint nihil consequatur reiciendis officiis corrupti, nam nemo asperiores enim.</p>
-                <h1 class="text-xl font-bold mt-2" data-aos="zoom-out-right">Tanvir Khan</h1>
-                <p class="font-medium  text-slate-500 " data-aos="zoom-out-right"><i>Frontend Developer</i></p>
+    <section class="testimonial">
+        <div class="container md:px-[50px]">
+            <div class="testimonial-wrap flex text-center flex-col items-center">
+                <div class="heading ">
+                    <h1 class="text-4xl font-fontLobster font-bold">_ Testimonial _</h1>
+                </div>
+                <div class="img-box my-2">
+                    <img class=""data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" src="/img/testimonial-3.jpg" alt="">
+                </div>
+                <div class="content my-2 px-[20px]">
+                    <p class="text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae unde sint nihil consequatur reiciendis officiis corrupti, nam nemo asperiores enim.</p>
+                    <h1 class="text-xl font-bold mt-2 font-fontLobster" data-aos="zoom-out-right">Tanvir Khan</h1>
+                    <p class="font-medium  text-slate-500 " data-aos="zoom-out-right"><i>Frontend Developer</i></p>
+                </div>
             </div>
         </div>
     </section>
@@ -591,13 +613,13 @@
 
 <!-- Start Footer Section -->
 
-    <section class="footer bg-black w-[450px] md:w-[900px] xl:w-[1300px] px-[50px] py-[50px] mx-auto">
-        <div class="footer-wrap md:flex md:justify-between md:flex-wrap text-slate-400">
-            <div class="address basis-[100%] md:basis-[48%] xl:basis-[24%] py-[20px]" data-aos="fade-right">
+    <section class="footer bg-black px-[50px]">
+        <div class="container md:flex md:justify-between md:flex-wrap text-slate-400">
+            <div class="address basis-[100%] md:basis-[48%] lg:basis-[24%] py-[20px]" data-aos="fade-right">
                 <div class="heading">
                     <h1 class="text-xl font-bold">Address</h1>
                 </div>
-                <div class="content my-[10px]">
+                <div class="content my-[10px] text-lg">
                     <div class="adress flex items-center">
                         <i class="fa-solid fa-location-dot mr-3"></i>
                     <p class="text-lg">123 Street, New York, Usa</p>
@@ -624,40 +646,40 @@
                     <h1>Services</h1>
                 </div>
                 <div class="content my-[10px]">
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> General Carpentry</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Furniture Remodeling</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Wooden Floor</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Wooden Furniture</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Custom Carpentry</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> General Carpentry</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Furniture Remodeling</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Wooden Floor</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Wooden Furniture</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Custom Carpentry</p></a>
                 </div>
             </div>
             <div class="quick-links basis-[100%] md:basis-[48%] xl:basis-[24%] py-[20px]" data-aos="fade-right">
-                <div class="heading text-2xl font-bold">
+                <div class="heading text-xl font-bold">
                     <h1>Quick Links</h1>
                 </div>
                 <div class="content my-[10px]">
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> About Us</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Contact Us</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Our Services</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Terms & Condition</p></a>
-                    <a href="#"><p class="text-lg mt-2 hover:text-rose-600">> Support</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> About Us</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Contact Us</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Our Services</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Terms & Condition</p></a>
+                    <a href="#"><p class="text-sm mt-2 hover:text-rose-600">> Support</p></a>
                 </div>
             </div>
             <div class="newsletter basis-[100%] md:basis-[48%] xl:basis-[24%] py-[20px]" data-aos="fade-right">
-                <div class="heading text-2xl font-bold">
+                <div class="heading text-xl font-bold">
                     <h1>Newsletter</h1>
                 </div>
-                <p class="py-[5px]">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <p class="py-[5px] text-sm">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                 <div class="form bg-white mt-2 flex justify-between">
-                    <input class="py-3 px-2" type="email"   placeholder="Your email">
-                    <input class="px-4 py-2 bg-red-800 hover:bg-orange-700 font-medium" type="button" value="SignUp">
+                    <input class="py-3 px-2 flex-1" type="email"   placeholder="Your email">
+                    <input class="px-4 py-2 text-black btn2-hover font-medium" type="button" value="SignUp">
                 </div>
             </div>
         </div>
-        <div class="copyright text-white">
+        <div class="container copyright text-white">
             <div class="row py-[10px] md:flex md:justify-between border-t-2 text-slate-200 border-slate-800 ">
-                <p class="mt-4">&copy;<a href="">Your Site Name</a>, All Right Reserved</p>
-                <p class="mt-4 hidden md:block">Designed By <a href="">HTML Codex</a>
+                <p class="mt-4 text-sm">&copy;<a href="">Your Site Name</a>, All Right Reserved</p>
+                <p class="mt-4 hidden md:block text-sm">Designed By <a href="">HTML Codex</a>
                 </p>
             </div>
         </div>

@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    section{
+        @apply pt-16 pb-4 md:pt-20 ;
+    }
+    body {
+        @apply font-fontSuse bg-slate-200;
+    }
+}
+@layer components {
+    .btn-hover {
+        @apply border-2 border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-greenColor hover:text-greenColor 
+    }
+    .btn2-hover {
+        @apply border-2 border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor
+    }
+    .icon-hover {
+        @apply cursor-pointer hover:text-redColor ;
+    }
+    .flex-itemCol {
+        @apply flex flex-col gap-4;
+    }
+}
