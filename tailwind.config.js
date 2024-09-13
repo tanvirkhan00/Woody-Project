@@ -19,7 +19,11 @@ module.exports = {
         redColor:'#cc3433',
         darkColor:'#000',
         darkColorLight:'#171717',
-        limeColor:'#00FF00'
+        limeColor:'#00FF00',
+        mainColor:'#222831',
+        secondColor:'#393E46',
+        thirdColor:'#00ADB5',
+        fourthColor:'#EEEEEE',
       },
     },
     container:{

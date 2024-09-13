@@ -19,6 +19,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper = new Swiper(".mySwiper2", {
+  loop: true,
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: false,

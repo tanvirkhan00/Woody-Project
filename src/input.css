@@ -1,3 +1,5 @@
+
+/* Google Fonts Link */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
 
 @tailwind base;
@@ -10,20 +12,26 @@
         @apply pt-16 pb-4 md:pt-20 ;
     }
     body {
-        @apply font-fontSuse bg-slate-200;
+        @apply font-fontSuse bg-tillColor;
     }
 }
 @layer components {
     .btn-hover {
-        @apply border-2 border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-greenColor hover:text-greenColor 
+        @apply border-2 text-fourthColor border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-mainColor hover:text-yellowColor 
     }
     .btn2-hover {
-        @apply border-2 border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor
+        @apply border-2 text-fourthColor border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor
     }
     .icon-hover {
-        @apply cursor-pointer hover:text-redColor ;
+        @apply cursor-pointer ease-linear duration-200 hover:scale-105 hover:text-yellowColor;
     }
     .flex-itemCol {
         @apply flex flex-col gap-4;
+    }
+    .list-hover {
+        @apply border-b-4 border-transparent ease-linear duration-200 cursor-pointer hover:border-mainColor hover:text-fourthColor
+    }
+    .border-hover {
+        @apply border-2 border-paragraphColor rounded-md ease-linear duration-200 hover:border-yellowColor
     }
 }
