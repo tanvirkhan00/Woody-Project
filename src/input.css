@@ -17,7 +17,7 @@
 }
 @layer components {
     .btn-hover {
-        @apply border-2 text-fourthColor border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-mainColor hover:text-yellowColor 
+        @apply border-2 text-fourthColor border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-mainColor
     }
     .btn2-hover {
         @apply border-2 text-fourthColor border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor

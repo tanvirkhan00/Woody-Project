@@ -57,21 +57,24 @@
                 <div class="header-left ">
                     <div class="heading flex justify-between items-center h-[60px]">
                         <p class="font-bold text-4xl text-yellowColor font-fontLobster">WooDY</p>
-                        <div class="icon md:hidden">
+                        <div class="icon md:hidden" id="hamburger">
                             <i class="fa-solid fa-bars text-2xl icon-hover"></i>
                         </div>
                     </div>
                 </div>
-                <div class="header-right hidden md:block">
-                    <div class="list">
-                        <ul class="flex items-center gap-[10px] lg:gap-[15px]">
-                            <li class=""><a class="font-medium list-hover" href="#home">HOME</a></li>
-                            <li class=""><a class="font-medium list-hover" href="#about">ABOUT</a></li>
-                            <li class=""><a class="font-medium list-hover" href="#service">SERVICES</a></li>
-                            <li class=""><a class="font-medium list-hover" href="#project">PROJECTS</a></li>
-                            <li class=""><a class="font-medium list-hover" href="#team-member">TEAM MEMBERS</a></li>
-                            <li class=""><a class="font-medium list-hover" href="#contact">CONTACT</a></li>
+                <div class="header-right">
+                    <div class="list hidden absolute top-0 bottom-0 left-0 w-full py-14 bg-blackColor md:bg-transparent border-b-2 border-yellowColor text-whiteColor z-50 md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
+                        <ul class="flex items-center flex-col gap-[10px] md:flex-row lg:gap-[15px]">
+                            <li class=""><a class="font-medium list-hover nav__link" href="#home">HOME</a></li>
+                            <li class=""><a class="font-medium list-hover nav__link" href="#about">ABOUT</a></li>
+                            <li class=""><a class="font-medium list-hover nav__link" href="#service">SERVICES</a></li>
+                            <li class=""><a class="font-medium list-hover nav__link" href="#project">PROJECTS</a></li>
+                            <li class=""><a class="font-medium list-hover nav__link" href="#team-member">TEAM MEMBERS</a></li>
+                            <li class=""><a class="font-medium list-hover nav__link" href="#contact">CONTACT</a></li>
                         </ul>
+                        <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="nav-close">
+                            <i class="fa-solid fa-xmark hover:text-secondaryColor"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,7 +288,7 @@
                 <div class="row flex flex-wrap gap-[20px] md:justify-evenly lg:justify-between">
                     <div class="carpentry bg-whiteColor basis-[100%] md:basis-[48%] lg:basis-[45%] btn-hover" data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                            <div class="img-box">
+                            <div class="img-box ease-linear duration-200 hover:scale-95">
                                 <img class="w-full rounded-md" src="/img/service-1.jpg" alt="">
                             </div>
                             <h1 class="text-center text-2xl font-bold text-black py-2 font-fontBebas">General Carpentry</h1>
@@ -293,7 +296,7 @@
                     </div>
                     <div class="manufacturing basis-[100%] md:basis-[48%] lg:basis-[45%]
                         btn-hover bg-white" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="img-box">
+                            <div class="img-box ease-linear duration-200 hover:scale-95">
                                 <img class="w-full rounded-md" src="/img/service-2.jpg" alt="">
                             </div>
                             <h1 class="text-center text-2xl font-bold text-blackColor py-2 font-fontBebas">Furniture Manufacturing</h1>
@@ -302,7 +305,7 @@
                     <div class="remodeling basis-[100%] md:basis-[48%] lg:basis-[45%]
                         btn-hover bg-whiteColor" data-aos="fade-right" data-aos-duration="2000">
                             <div class="img-box">
-                                <img class="w-full rounded-md" src="/img/service-3.jpg" alt="">
+                                <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/service-3.jpg" alt="">
                             </div>
                             <h1 class="text-center text-2xl font-bold text-blackColor py-2 font-fontBebas">Furniture Remodeling</h1>
                             <p class="text-center text-slate-500 px-2 pb-[10px]">Offering custom curated designs that take your existing pieces and recreate them into a new piece that you will fall in love with all over again.</p>
@@ -310,7 +313,7 @@
                     <div class="floor basis-[100%] md:basis-[48%] lg:basis-[45%]
                         btn-hover bg-whiteColor" data-aos="fade-up-left" data-aos-duration="2000">
                             <div class="img-box">
-                                <img class="w-full rounded-md" src="/img/service-4.jpg" alt="">
+                                <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/service-4.jpg" alt="">
                             </div>
                             <h1 class="text-center py-2 text-2xl font-bold text-black font-fontBebas">Wooden Floor </h1>
                             <p class="text-center text-slate-500 px-2 pb-[10px]">Wood flooring is any product manufactured from timber that is designed for use as flooring, either structural or aesthetic.</p>
@@ -318,7 +321,7 @@
                     <div class="furniture basis-[100%] md:basis-[48%] lg:basis-[45%]
                         btn-hover bg-whiteColor" data-aos="fade-down-right" data-aos-duration="">
                             <div class="img-box">
-                                <img class="w-full rounded-md" src="/img/service-5.jpg" alt="">
+                                <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/service-5.jpg" alt="">
                             </div>
                             <h1 class="text-center py-2 text-2xl font-bold text-blackColor font-fontBebas">Wooden Furniture</h1>
                             <p class="text-center text-slate-500 px-2 pb-[10px]">Woody Furniture is specialize & experience in developing modern to traditional, contemporary to classic furniture.</p>
@@ -326,7 +329,7 @@
                     <div class="custom-work basis-[100%] md:basis-[48%] lg:basis-[45%]
                         btn-hover bg-whiteColor" data-aos="zoom-in" data-aos-duration="2000">
                             <div class="img-box">
-                                <img class="w-full rounded-md" src="/img/service-6.jpg" alt="">
+                                <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/service-6.jpg" alt="">
                             </div>
                             <h1 class="text-center text-2xl font-bold text-blackColor py-2 font-fontBebas">Custom Work
                             </h1>
@@ -402,7 +405,7 @@
                 <div class="row flex flex-wrap md:justify-between gap-[20px]">
                     <div class="single-project basis-[100%] md:basis-[48%] bg-whiteColor lg:basis-[31%] btn-hover" data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-box">
-                            <img class="w-full rounded-md" src="/img/portfolio-1.jpg" alt="">
+                            <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/portfolio-1.jpg" alt="">
                         </div>
                         <div class="content px-4 py-2 ">
                             <p class="text-2xl font-medium text-blackColor font-fontBebas">General Carpentry</p>
@@ -411,7 +414,7 @@
                     </div>
                     <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[31%] btn-hover bg-whiteColor" data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-box">
-                            <img class="w-full rounded-md" src="/img/portfolio-2.jpg" alt="">
+                            <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/portfolio-2.jpg" alt="">
                         </div>
                         <div class="content py-[10px] px-4 ">
                             <p class="text-2xl font-medium font-fontBebas text-blackColor">Custom Carpentry</p>
@@ -420,7 +423,7 @@
                     </div>
                     <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[31%] btn-hover bg-whiteColor" data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-box">
-                            <img class="w-full rounded-md" src="/img/portfolio-3.jpg" alt="">
+                            <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/portfolio-3.jpg" alt="">
                         </div>
                         <div class="content py-[10px]  px-4">
                             <p class="text-2xl font-medium text-blackColor font-fontBebas">Wooden Floor</p>
@@ -429,7 +432,7 @@
                     </div>
                     <div class="single-project basis-[100%] md:basis-[48%] lg:basis-[31%] btn-hover bg-whiteColor" data-aos="fade-right" data-aos-duration="2000">
                         <div class="img-box">
-                            <img class="w-full rounded-md" src="/img/portfolio-4.jpg" alt="">
+                            <img class="w-full rounded-md ease-linear duration-200 hover:scale-95" src="/img/portfolio-4.jpg" alt="">
                         </div>
                         <div class="content py-[10px] px-4 ">
                             <p class="text-2xl font-medium text-blackColor font-fontBebas">Furniture Remodeling</p>
@@ -626,7 +629,7 @@
             </div>
             <div class="copyright text-white">
                 <div class="row md:flex md:justify-between border-t-2 text-slate-200 border-slate-800 ">
-                    <p class="mt-2 text-sm">&copy;<a href="">Your Site Name</a>, All Right Reserved</p>
+                    <p class="mt-2 text-sm">&copy;<a href="">Woody furniture</a>, All Right Reserved</p>
                     <p class="mt-2 hidden md:block text-sm">Designed By <a href="">HTML Codex</a>
                     </p>
                 </div>
@@ -635,6 +638,12 @@
     </section>
     
 <!-- End Footer Section -->
+
+<!------------------ Scroll Up -------------->
+
+<a href="" class="fixed right-4 bg-yellowColor shadow-sm inline-block px-4 py-2 rounded-full text-lg text-blackColor z-50 -bottom-1/2 hover:translate-y-1 ease-in duration-200" id="scroll-up">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
 
 
 
@@ -652,5 +661,8 @@
 
 <!-- Initialize AOS -->
     <script src="/src/js/aos.js"></script>
+
+<!-- Script Js Link -->
+ <script src="main.js"></script>
 </body>
 </html>
