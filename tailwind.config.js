@@ -1,44 +1,40 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: [
+    "./index.html",
+    "./**/*.{html,js}",
+  ],
   theme: {
-    screens:{
-      sm:"480px",
-      md:"768px",
-      lg:"1024px",
-    },
     extend: {
       colors: {
-        tillColor:'#008080',
-        primaryColorLight:'#010d78',
-        yellowColor:'#DFFF00',
-        paragraphColor:'#c0c0c0',
-        whiteColor:'#fff',
-        blackColor:'#000',
-        greenColor:'#007936',
-        redColor:'#cc3433',
-        darkColor:'#000',
-        darkColorLight:'#171717',
-        limeColor:'#00FF00',
-        mainColor:'#222831',
-        secondColor:'#393E46',
-        thirdColor:'#00ADB5',
-        fourthColor:'#EEEEEE',
+        primary: '#D4A574',
+        dark: '#1A1A1A',
+        cream: '#F5F5DC',
+        rust: '#B7410E',
+        yellowColor: '#FDB813',
+        limeColor: '#D4FF00',
+        mainColor: '#6B8E23',
+        fourthColor: '#8B4513',
+        darkColorLight: '#2C2C2C',
+        paragraphColor: '#808080',
+        tillColor: '#F5F5F5',
+      },
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        fontSuse: ['SUSE', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
       },
     },
-    container:{
-      center:true,
-      padding: {
-        DEFAULT:'1rem',
-        sm: '1.5rem',
-      }
-    },
-    fontFamily:{
-      fontSuse: ["SUSE", 'sans-serif'],
-      fontProtest: ["Protest Guerrilla", 'sans-serif'],
-      fontLobster: ["Lobster", 'sans-serif'],
-      fontBebas: ["Bebas Neue", 'sans-serif']
-    }
   },
   plugins: [],
 }

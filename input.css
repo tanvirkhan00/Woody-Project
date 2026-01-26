@@ -1,37 +1,114 @@
-
-/* Google Fonts Link */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=SUSE:wght@100..800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@layer base{
-    section{
-        @apply pt-16 pb-4 md:pt-20 ;
-    }
-    body {
-        @apply font-fontSuse bg-tillColor;
-    }
+@layer base {
+  section {
+    @apply pt-16 pb-4 md:pt-20;
+  }
+  
+  body {
+    @apply font-poppins bg-white;
+  }
+  
+  * {
+    @apply box-border;
+  }
 }
+
 @layer components {
-    .btn-hover {
-        @apply border-2 text-fourthColor border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-mainColor
-    }
-    .btn2-hover {
-        @apply border-2 text-fourthColor border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor
-    }
-    .icon-hover {
-        @apply cursor-pointer ease-linear duration-200 hover:scale-105 hover:text-yellowColor;
-    }
-    .flex-itemCol {
-        @apply flex flex-col gap-4;
-    }
-    .list-hover {
-        @apply border-b-4 border-transparent ease-linear duration-200 cursor-pointer hover:border-mainColor hover:text-fourthColor
-    }
-    .border-hover {
-        @apply border-2 border-paragraphColor rounded-md ease-linear duration-200 hover:border-yellowColor
-    }
+  /* Button Styles */
+  .btn-hover {
+    @apply border-2 text-fourthColor border-transparent cursor-pointer rounded-md duration-200 ease-linear hover:border-mainColor;
+  }
+  
+  .btn2-hover {
+    @apply border-2 text-fourthColor border-yellowColor rounded-md cursor-pointer ease-linear duration-200 hover:bg-darkColorLight hover:text-limeColor;
+  }
+  
+  /* Icon Styles */
+  .icon-hover {
+    @apply cursor-pointer ease-linear duration-200 hover:scale-105 hover:text-yellowColor;
+  }
+  
+  /* Flex Utilities */
+  .flex-itemCol {
+    @apply flex flex-col gap-4;
+  }
+  
+  /* List Styles */
+  .list-hover {
+    @apply border-b-4 border-transparent ease-linear duration-200 cursor-pointer hover:border-mainColor hover:text-fourthColor;
+  }
+  
+  /* Border Styles */
+  .border-hover {
+    @apply border-2 border-paragraphColor rounded-md ease-linear duration-200 hover:border-yellowColor;
+  }
+
+  /* Social Icon Hover */
+  .social-icon {
+    @apply w-10 h-10 flex items-center justify-center border border-gray-600 transition-all duration-300;
+  }
+  
+  .social-icon:hover {
+    @apply bg-primary border-primary;
+  }
+}
+
+@layer utilities {
+  /* Custom utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Swiper Styles */
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #D4A574;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #D4A574;
+  color: white;
 }
